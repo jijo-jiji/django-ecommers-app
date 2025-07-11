@@ -1,0 +1,8 @@
+# Ignore a specific large CSS file
+static/css/bootstrap.min.css linguist-vendored
+
+# Or, ignore an entire directory of third-party libraries
+static/vendor/* linguist-vendored
+
+# You can also ignore Javascript libraries
+static/js/jquery.min.js linguist-vendored
