@@ -26,8 +26,8 @@ class ShippingAddress(models.Model):
         if created:
             ShippingAddress.objects.create(
                 user=instance,
-                full_name=instance.get_full_name(), # Gets the user's name
-                email=instance.email, # Gets the user's email
+                shipping_fullname=instance.get_full_name(), # Gets the user's name
+                shipping_email=instance.email, # Gets the user's email
             )
 
     # Connect the signal
