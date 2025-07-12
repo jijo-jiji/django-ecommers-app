@@ -3,7 +3,7 @@
 # Or, ignore an entire directory of third-party libraries
 staticfiles/vendor/* linguist-vendored
 # Ignore the collected static files for production
-staticfiles/
+staticfiles/* linguist-vendored
 # You can also ignore Javascript libraries
 static/js/jquery.min.js linguist-vendored
 
